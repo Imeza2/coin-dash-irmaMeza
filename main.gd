@@ -57,7 +57,7 @@ func _on_player_pickup(type):
 			score += 1
 			$HUD.update_score(score)
 		"powerup":
-			$PowerupSound.play()
+			$PowerUpSound.play()
 			time_left += 5
 			$HUD.update_timer(time_left)
 
